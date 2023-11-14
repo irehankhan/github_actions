@@ -16,7 +16,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: 3.9-slim
+        python-version: python:3.9-slim
 
     - name: Install dependencies
       run: |
@@ -35,7 +35,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with: 
-        python-version: 3.9-slim
+        python-version: python:3.9-slim
 
     - name: Install dependencies
       run: |
