@@ -44,7 +44,7 @@ jobs:
 
     - name: Run tests
       run: |
-        python echo "Test Ok"
+        python test_scripts.py
 
   deploy:
     runs-on: ubuntu-latest
